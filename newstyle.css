@@ -6,8 +6,9 @@ h1{
     font-size: 50px;
     color:deepskyblue
 }
-h2{
+.myy{
     color: darkgreen;
+    text-align: center;
 }
 .name{
     color: rgb(233, 236, 59);
@@ -15,10 +16,17 @@ h2{
 h3{
     color: rgb(39, 88, 233);
 }
-.flex-mood{
+.mood{
     display: flex;
     margin-bottom: 100px;
+    
+    
+
   
+}
+.mood1{
+    justify-content: center;
+    
 }
 .new-width{
     width:50%;
@@ -37,12 +45,42 @@ h3{
     
 
 }
-.ab{
-    background-image: url();
-    background-repeat: no-repeat;
-}
+
+
 .cd{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: right;
 }
+.cd img{
+    height:350px;
+
+}
+.many{
+    color:rgb(97, 97, 216);
+    text-align: center;
+}
+.second-width{
+    width:30%;
+    padding-left:50px;
+
+}
+.second-width img{
+    height: auto;
+    max-width: 100%;
+  
+
+}
+.recepie{
+    box-shadow: 10px 10px 30px blue;
+    box-sizing: border-box;
+    width:20%;
+    height:50%;
+    margin: 1%;
+    padding: 2%;
+    
+      
+}
+
+
+
